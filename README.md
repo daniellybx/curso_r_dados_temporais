@@ -5,9 +5,15 @@ Curso de nível intermediário aplicando o R e o RStudio ao cotidiano da Vigilâ
 -Iniciar a abordagem temporal em Epidemiologia e Vigilância Epidemiológica
 
 -Conceitos básicos de epidemiologia: epidemias, surtos, pandemias, endemias
+
 -Calcular indicadores de saúde
+
 -Criar gráficos com dados por meio da plataforma gráfica
+
 -Criar um diagrama de controle
+
 -Suavizar séries temporais por médias móveis
+
 -Criar um modelo de regressão binomial negativa e identificar surtos por meio do modelo
+
 -Realizar modelagem epidêmica e calcular Rt
