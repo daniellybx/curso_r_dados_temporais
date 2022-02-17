@@ -13,7 +13,7 @@ pacman::p_load(
    forecast,      # ajustando predições temporais
    trending,      # ajuste e avaliação de modelos
    yardstick,     # para avaliar a acurácia do modelo
-   surveillance  # para detectar dados errados
+   surveillance   # para detectar dados errados
 )
 
 #importando dados de internação
