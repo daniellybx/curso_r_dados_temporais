@@ -1,9 +1,10 @@
 #03 Calculando taxas de incidência temporais
 
 #instalando pacotes
-### install.packages('tidyverse')
-### install.packages('data.table')
-### install.packages('readxl')
+
+## install.packages('tidyverse')
+## install.packages('data.table')
+## install.packages('readxl')
 
 #carregando pacotes necessários
 

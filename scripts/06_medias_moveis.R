@@ -55,7 +55,7 @@ pre <- intden %>%
 
 #grágico de médias móveis
 ggplot(data = pre)+
-  geom_line(mapping = aes(x = data, y = ma_6dias), size = 1)+
+  geom_line(mapping = aes(x = data, y = ma_7dias), size = 1)+
   ggtitle("Internações por dengue no DF, 2020")+
   theme_bw()+
   ylab("Internações")+
