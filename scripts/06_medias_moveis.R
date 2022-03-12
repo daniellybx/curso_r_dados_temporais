@@ -1,5 +1,5 @@
 #instalando e carregando pacotes
-#install.packages("pacman")
+install.packages("pacman")
 
 #verificando instalação de pacotes e carregando pacotes necessários
 pacman::p_load(
@@ -124,7 +124,7 @@ sihden %>%
     size = 1,
     color = "blue")+ 
   theme_minimal()+
-  labs(                            # incluindo título do gráfico e dos eixos
+  labs(                             # incluindo título do gráfico e dos eixos
     title = "Média móvel de internações por dengue no DF, 2020",
     x = "Data de admissão",
     y = "Internações")
