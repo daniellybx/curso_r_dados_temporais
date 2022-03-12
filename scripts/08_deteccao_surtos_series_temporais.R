@@ -22,7 +22,6 @@ fim = yearweek("2021-12-31")
 nse = as.numeric(fim - corte)
 
 ##ajustando dados até o final do ano
-## add in missing weeks till end of year 
 tssihdf <- tssihdf %>% 
   group_by_key() %>%
   group_modify(~add_row(.,
@@ -30,7 +29,7 @@ tssihdf <- tssihdf %>%
                                       fim,
                                       by = 1)))
 
-## define fourier terms (sincos) 
+## definindo os termos de fourier 
 tssihdf <- tssihdf %>% 
   mutate(
     FOURIER2 = rbind(

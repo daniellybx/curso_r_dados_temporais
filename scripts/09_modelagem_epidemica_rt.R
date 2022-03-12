@@ -42,7 +42,7 @@ epiestim_res_lit <- estimate_R(
   config = config_lit
 )
 
-##plotando a curva epidêmia, o Rt estimado para o período 
+##plotando a curva epidêmica, o Rt estimado para o período 
 ##e o intervalo serial (intervalo entre os sintomas dos casos primários para os secundários)
 plot(epiestim_res_lit)
 
@@ -168,7 +168,6 @@ ggplot() +
     aes(x = dates, y = median),
     alpha = 0.2
   ) +
-  ## use label_parsed to allow subscript label
   facet_wrap(
     ~ variable,
     ncol = 1,
@@ -176,7 +175,6 @@ ggplot() +
     labeller = as_labeller(c(r = "R[t]", risk = "Transmission~potential"), label_parsed),
     strip.position = 'left'
   ) +
-  ## manually define quantile transparency
   scale_alpha_manual(
     values = c(`50` = 0.7, `90` = 0.4, `95` = 0.2),
     labels = function(x) paste0(x, "%")

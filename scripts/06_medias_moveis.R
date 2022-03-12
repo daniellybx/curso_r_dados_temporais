@@ -1,5 +1,5 @@
 #instalando e carregando pacotes
-install.packages("pacman")
+#install.packages("pacman")
 
 #verificando instalação de pacotes e carregando pacotes necessários
 pacman::p_load(
@@ -53,7 +53,7 @@ pre <- intden %>%
       .before = days(6))              # criando média movel de 7 dias para dias  
   )
 
-#grágico de médias móveis
+#gráfico de médias móveis
 ggplot(data = pre)+
   geom_line(mapping = aes(x = data, y = ma_7dias), size = 1)+
   ggtitle("Internações por dengue no DF, 2020")+

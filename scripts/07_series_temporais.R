@@ -42,7 +42,7 @@ sihdf2 = aggregate(CASOS ~ DATA, data = sihdf, sum)
 summary(sihdf2$DATA)
 
 #definindo intervalo de tempo
-sihdf2 = subset(sihdf2, sihdf2$DATA >= "2008-01-01" & sihdf2$DATA <= "2021-09-30")
+sihdf2 = subset(sihdf2, sihdf2$DATA >= "2008-01-01" & sihdf2$DATA <= "2021-12-31")
 
 #criando uma variável de semana epidemiológica
 sihdf2 <- sihdf2 %>% 
