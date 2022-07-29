@@ -10,3 +10,12 @@ Curso de nível intermediário aplicando o R e o RStudio ao cotidiano da Vigilâ
 - Suavizar séries temporais por médias móveis
 - Criar um modelo de regressão binomial negativa e identificar surtos por meio do modelo
 - Realizar modelagem epidêmica e calcular Rt
+
+## Ferramentas necessárias
+- R 
+- RStudio
+
+## Estude com esse repositório
+````
+git clone https://github.com/daniellybx/curso_r_dados_temporais.git
+````
