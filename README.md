@@ -1,4 +1,6 @@
-# Curso de análise temporal em R para Vigilância em Saúde.
+# Curso de análise temporal em R para Vigilância em Saúde
+
+Esse é o repositório original do "Curso de análise temporal em R para Vigilância em Saúde", produzido em parceria com a Organização Panamericana da Saúde.
 
 Curso de nível intermediário aplicando o R e o RStudio ao cotidiano da Vigilância em Saúde. O curso foi dividido em 8 módulos, representados por aulas, teóricas e práticas, que abordam a vigilância em saúde da Covid-19 e doenças infecciosas no Sistema Único de saúde, considerando o Sistema Nacional de Vigilância em Saúde e os protocolos e guias do Ministério da Saúde do Brasil e suas aplicações. Ao final do curso o aluno estará apto a:
 
